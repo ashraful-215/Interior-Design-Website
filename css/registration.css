@@ -1,0 +1,95 @@
+/* [MD Ashraful Islam Talukdar] */
+
+
+*{
+margin: 0;
+padding: 0;
+font-family: 'poppins', sans-serif;
+box-sizing: border-box;
+}
+
+.container{
+width: 100%;
+height: 100vh;
+background-image: linear-gradient(rgba(85, 79, 63, 0.8),rgba(167, 149, 129, 0.8)), url(background.png);             /* [MD Ashraful Islam Talukdar] */
+background-position: center;
+background-size: cover;
+position: relative;
+}
+
+.form-box{
+    width: 90%;
+    max-width: 750px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);                                                                               /* [MD Ashraful Islam Talukdar] */
+    background: #fdfcfc;
+    padding: 50px 60px 70px;
+    text-align: center;}
+    .form-box h1{
+        text-transform: uppercase;                                                                               /* [MD Ashraful Islam Talukdar] */
+        font-size: 36px;
+        margin-bottom: 60px;
+        color: #55443A;
+        position: relative;}
+        .form-box h1::after{
+            content: '';
+            width: 30px;
+            height: 4px;
+            border-radius: 3px;
+            background: #55443A;                                                                               /* [MD Ashraful Islam Talukdar] */
+            position: absolute;
+            bottom: -12px;
+            left: 50%;
+            transform: translate(-50%);} /* [MD Ashraful Islam Talukdar] */
+
+.input-field{
+    background: #eaeaea;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;                                                                               /* [MD Ashraful Islam Talukdar] */
+    overflow: hidden;}
+    .input-field i{
+        margin-left: 15px;
+        color: #999;}
+
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;}
+    .input-group{
+        height: 270px;}
+
+form p{
+    text-align: left;
+    font-size: 13px;}
+    form p a{
+        text-decoration: none;                                                                               /* [MD Ashraful Islam Talukdar] */
+        color: #55443A;}
+
+.btn-field{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;}                                                                               /* [MD Ashraful Islam Talukdar] */
+    .btn-field button{
+        flex-basis: 48%;
+        height: 6vh;
+        background: #55443A;
+        color: #fff;
+        text-transform: uppercase;
+        border: 0;
+        outline: 0;
+        cursor: pointer;
+        transition: background 1s;}                                                                               /* [MD Ashraful Islam Talukdar] */
+        .btn-field button.disable{
+            background: #eaeaea;
+            color: #555;}
+
+
+/* [MD Ashraful Islam Talukdar] */

@@ -1,0 +1,449 @@
+/* [MD Ashraful Islam Talukdar] */
+
+body {
+  font-family: 'Hind', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: #42535D; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }                                                                                         /* [MD Ashraful Islam Talukdar] */
+
+img {
+  max-width: 100%; }
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+  text-decoration: none;
+  outline: none; }
+
+a:focus,
+a:hover {
+  text-decoration: none; }                                                                                     /* [MD Ashraful Islam Talukdar] */
+
+i,
+span,
+a {
+  display: inline-block; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Quattrocento', serif;                                                                                /* [MD Ashraful Islam Talukdar] */
+  font-weight: 700;
+  color: #42535D;
+  margin: 0px; }
+
+h1 {
+  font-size: 60px; }
+h2 {
+  font-size: 36px; }
+h3 {
+  font-size: 28px; }
+h4 {
+  font-size: 22px; }
+h5 {
+  font-size: 18px; }
+h6 {
+  font-size: 16px; }
+
+ul, ol {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none; }
+
+p {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #42535D;
+  margin: 0px; }
+
+.bg_cover {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%; }
+
+
+
+/* All Button Style [MD Ashraful Islam Talukdar] */
+
+.main-btn {
+  display: inline-block;
+  font-weight: 600;
+  text-align: center;
+  border: 1px solid #55443A;
+  padding: 0 30px;
+  font-size: 16px;
+  line-height: 48px;
+  color: #fff;
+  z-index: 5;
+  background-color: #55443A;
+  font-family: 'Barlow', sans-serif;                                                                               /* [MD Ashraful Islam Talukdar] */
+  text-transform: uppercase; }
+  .main-btn i {
+    margin-right: 5px; }
+  .main-btn:hover {
+    background-color: #fff;
+    color: #55443A;
+    border-color: #55443A; }
+
+/* All Section Title Style [MD Ashraful Islam Talukdar] */
+.section-title .sub-title {
+  font-size: 18px;
+  color: #55443A;
+  text-transform: uppercase; }
+
+.section-title .title {
+  font-size: 35px;
+  text-transform: uppercase; }
+
+
+
+/* HEADER Section  [MD Ashraful Islam Talukdar] */
+.header-area {
+  position: relative; }
+  .header-area .shape {
+    position: absolute; }
+
+.navigation-bar {
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+  padding: 25px 0;
+ }
+
+.navbar {
+  padding: 0;
+  position: relative; }
+  .navbar .navbar-brand img {
+    max-width: 100px; }
+  .navbar .navbar-nav .nav-item {
+    margin-right: 30px; }
+    .navbar .navbar-nav .nav-item a {                                                                               /* [MD Ashraful Islam Talukdar] */
+      color: #dbab8e;
+      font-family: 'Hind', sans-serif;
+      font-size: 15px;
+      text-transform: uppercase;
+      font-weight: 700;
+     }
+    .navbar .navbar-nav .nav-item.active a, .navbar .navbar-nav .nav-item:hover a {                                                                               /* [MD Ashraful Islam Talukdar] */
+      color: #55443A; }
+
+.header-banner {
+  height: 700px;
+  position: relative; }
+  .header-banner .banner-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 55%;
+    height: 100%; }
+  .header-banner .banner-content {
+    position: relative;
+    z-index: 9; }
+    .header-banner .banner-content .sub-title {
+      font-size: 24px;
+      color: #55443A;
+      text-transform: uppercase; }
+    .header-banner .banner-content .banner-title {
+      font-size: 60px; }
+      .header-banner .banner-content .banner-title span {                                                                               /* [MD Ashraful Islam Talukdar] */
+        color: #55443A; }
+    .header-banner .banner-content .banner-contact {
+      position: relative;
+      font-size: 15px;
+      font-weight: 600;
+      font-family: 'Barlow', sans-serif;
+      color: #55443A;
+      text-transform: uppercase;
+      margin-left: 70px; }
+      .header-banner .banner-content .banner-contact::before {                                                                               /* [MD Ashraful Islam Talukdar] */
+        position: absolute;
+        content: '';
+        width: 60px;
+        height: 2px;
+        background-color: #55443A;
+        left: -70px;
+        top: 50%; }
+
+
+
+/* ABOUT Section  [MD Ashraful Islam Talukdar] */
+
+.about-image {
+  position: relative; }
+  .about-image::before {
+    position: absolute;
+    content: '';
+    background-position: center center;
+    background-size: 100%;
+    width: 375px;
+    height: 350px;
+    left: 50%;
+    top: 50%;
+    z-index: -1; }
+  .about-image .single-image {
+    width: 360px; }
+    .about-image .single-image img {
+      width: 100%; }
+    .about-image .single-image.image-tow {                                                                               /* [MD Ashraful Islam Talukdar] */
+      margin-top: -200px;
+      margin-left: 100px;
+      position: relative;
+      z-index: 5; }
+
+.about-content .about-welcome {
+  font-size: 24px;
+  color: #55443A;
+  text-transform: uppercase; }
+.about-content .about-title {
+  font-size: 35px;
+  text-transform: uppercase; }
+
+
+
+/* SERVICES Section  [MD Ashraful Islam Talukdar] */
+
+.single-services {
+  padding: 50px 30px;
+  background-color: #fff; }
+  .single-services .services-icon i {
+    font-size: 52px;
+    color: #55443A; }
+  .single-services .services-content .services-title {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Barlow', sans-serif; }
+  .single-services:hover {
+    background-color: #55443A; }
+    .single-services:hover .services-content .services-title,                                                                               /* [MD Ashraful Islam Talukdar] */
+    .single-services:hover .services-content p {
+      color: #fff; }
+
+
+
+/* PROJECT Section  [MD Ashraful Islam Talukdar] */
+.single-project {
+  position: relative; }
+  .single-project .project-image {
+    position: relative; }
+    .single-project .project-image::before {
+      position: absolute;
+      content: '';
+      width: 100%;
+      height: 100%;
+      opacity: 0; }
+  .single-project .project-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 5px;
+    transform: translateY(100%);
+    transition: all 0.4s ease-out 0s;
+    opacity: 0; }
+    .single-project .project-content .project-title {
+      font-size: 22px;
+      font-weight: 600;
+      font-family: 'Barlow', sans-serif;
+      position: relative;
+      color: #fff;
+      margin-left: 60px; }
+      .single-project .project-content .project-title::before {                                                                               /* [MD Ashraful Islam Talukdar] */
+        position: absolute;
+        content: '';
+        width: 50px;
+        height: 1px;
+        background-color: #fff;
+        top: 50%;
+        left: -60px; }
+  .single-project:hover .project-image::before {
+    opacity: 1; }
+  .single-project:hover .project-content {
+    opacity: 1;
+    transform: translateY(0%); }
+
+
+
+
+/*TEAM Section [MD Ashraful Islam Talukdar] */
+
+.single-team .team-image img {
+  width: 100%; }
+.single-team .team-content {
+  width: 80%;
+  margin: 0 auto;
+  padding: 30px 15px;
+  position: relative;}
+  .single-team .team-content .team-name a {
+    font-size: 18px;
+    font-weight: 600;
+    color: #55443A;
+    font-family: 'Hind', sans-serif; }
+    .single-team .team-content .team-name a:hover {                                                                               /* [MD Ashraful Islam Talukdar] */
+      color: #55443A; }
+  .single-team .team-content .sub-title {
+    font-size: 14px;
+    color: #55443A; }
+  .single-team .team-content .social {
+    margin-top: -35px;
+    opacity: 0;
+    visibility: hidden; }
+    .single-team .team-content .social li {
+      display: inline-block;
+      margin: 0 7px; }
+      .single-team .team-content .social li a {                                                                               /* [MD Ashraful Islam Talukdar] */
+        font-size: 16px;
+        color: #55443A;
+        width: 30px;
+        height: 30px;
+        line-height: 35px;
+        text-align: center;
+        border-radius: 50%;
+        background-color: #ededed; }
+        .single-team .team-content .social li a:hover {                                                                               /* [MD Ashraful Islam Talukdar] */
+          background-color: #55443A;
+          color: #fff; }
+
+.single-team:hover .team-content {
+  background-color: #fff;
+  margin-top: -60px;
+  box-shadow: 0px 6px 16px 0px #55443A; }
+  .single-team:hover .team-content .social {                                                                               /* [MD Ashraful Islam Talukdar] */
+    margin-top: 25px;
+    opacity: 1;
+    visibility: visible; }
+
+
+
+/*CONTACT Section [MD Ashraful Islam Talukdar] */ 
+
+.form-group {
+  margin: 0; }
+p.form-message.success,
+p.form-message.error {
+  font-size: 16px;
+  color: #333;
+  background: #ddd;
+  padding: 10px 15px;
+  margin-left: 15px;
+  margin-top: 15px; }
+p.form-message.error {
+  color: #55443A; }
+.contact-form .single-form {
+  margin-top: 30px; }
+  .contact-form .single-form textarea,                                                                               /* [MD Ashraful Islam Talukdar] */
+  .contact-form .single-form input {
+    width: 100%;
+    height: 60px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 0 30px;
+    background-color: #fff;
+    font-family: 'Hind', sans-serif;
+    font-size: 16px; }
+  .contact-form .single-form textarea {
+    height: 160px;
+    padding-top: 20px;
+    resize: none; }
+  .contact-form .single-form textarea::placeholder,                                                                               /* [MD Ashraful Islam Talukdar] */
+  .contact-form .single-form input::placeholder {
+    opacity: 1;
+    color: #55443A; }
+.list-unstyled li {
+  font-size: 13px;
+  margin-left: 2px;
+  margin-top: 5px;
+  color: #55443A; }
+
+
+
+/*FOOTER Section [MD Ashraful Islam Talukdar] */    
+
+.footer-logo a img {
+  width: 90px; }
+.footer-logo p {
+  line-height: 26px;
+  font-size: 16px; }
+.footer-logo .footer-social li {
+  display: inline-block;
+  margin-left: 15px; }
+  .footer-logo .footer-social li:first-child {                                                                               /* [MD Ashraful Islam Talukdar] */
+    margin-left: 0; }
+  .footer-logo .footer-social li a {
+    width: 35px;
+    height: 35px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #fff5f1;
+    color: #55443A;
+    font-size: 16px;
+    box-shadow: 0px 5px 21px 0px #d4d1cf; }                                                                               /* [MD Ashraful Islam Talukdar] */
+    .footer-logo .footer-social li a:hover {
+      background-color: #55443A;
+      color: #fff; }
+.f-title .title {
+  font-size: 22px;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600; }
+.footer-link ul li {
+  padding-top: 5px; }
+  .footer-link ul li a {
+    font-size: 16px;
+    color: #55443A;
+    font-family: 'Hind', sans-serif; }                                                                               /* [MD Ashraful Islam Talukdar] */
+    .footer-link ul li a:hover {
+      color: #55443A; }
+.footer-newsleter p {
+  line-height: 26px;
+  font-size: 16px; }
+.footer-newsleter .newsleter {
+  position: relative; }
+  .footer-newsleter .newsleter input {                                                                               /* [MD Ashraful Islam Talukdar] */
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    border: 1px solid #55443A;
+    background-color: #ffeae1; }
+  .footer-newsleter .newsleter button {                                                                               /* [MD Ashraful Islam Talukdar] */
+    border: 0;
+    width: 66px;
+    text-align: center;
+    padding: 0;
+    height: 50px;
+    background: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #55443A;
+    font-size: 20px;
+    line-height: 57px;
+    cursor: pointer; }
+    .footer-newsleter .newsleter button::before {                                                                               /* [MD Ashraful Islam Talukdar] */
+      position: absolute;
+      content: '';
+      top: 50%;
+      left: 0;
+      width: 1px;
+      height: 36px;
+      background-color: #55443A;
+      transform: translateY(-50%); }                                                                               /* [MD Ashraful Islam Talukdar] */
+.copyright-area {
+  border-top: 1px solid #eceff8;
+  padding: 13px 0; }
+
+
+
+
+  /* [MD Ashraful Islam Talukdar] */ 
